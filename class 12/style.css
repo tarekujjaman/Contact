@@ -1,0 +1,144 @@
+
+body{
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1520px 730px;
+}
+.full {
+    background-color:rgb(255, 255, 255);
+    height: 550px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 85px;
+    border: 2px solid rgb(0, 0, 0);
+    border-color: rgb(233, 215, 215);
+    border-radius: 10px;
+    
+    
+}
+.top{
+    height: 170px;
+    width: 300px;
+    /* background-color: slategray; */
+    overflow:hidden;
+
+}
+.top h1{
+    color: black;
+    text-align:center;
+    margin-top: 85px;
+
+}
+.top h1 span{
+    text-decoration: underline;
+    text-decoration-color: #1AA085;
+}
+.name {
+    /* background-color: blue; */
+    height: 65px;
+    width: 300px;
+    margin-top: -15px;
+
+}
+.name p{
+   display: block;
+   width: 100%;
+    height: 5px;
+    margin-left: 33px;
+}
+.name [type=text]{
+    height: 25px;
+    width: 225px;
+    margin-left: 33px;
+    outline: none;
+    border: 1px solid rgb(192, 184, 184);
+    border-radius: 20px;
+}
+.emaill{
+    /* background-color: blue; */
+    height: 65px;
+    width: 300px;
+    margin-top: -15px;
+}
+.emaill p{
+    display: block;
+    width: 100%;
+     height: 5px;
+     margin-left: 33px;
+}
+.emaill [type=email]{
+    height: 25px;
+    width: 225px;
+    margin-left: 33px;
+    outline: none;
+    border: 1px solid rgb(192, 184, 184);
+    border-radius: 20px;
+}
+.message{
+    /* background-color:green; */
+    height: 100px;
+    width: 300px;
+    margin-top: -15px;
+}
+
+.message p{
+    display: block;
+    width: 100%;
+    height: 5px;
+    margin-left: 33px;
+}
+.message [type=text] {
+    height: 75px;
+    width: 225px;
+    display: block;
+    margin:auto;
+    outline: none;
+    border: 1px solid rgb(192, 184, 184);
+    border-radius: 20px;
+}
+button{
+    color:white;
+    display: inline-block;
+    width: 225px;
+    height: 28px;
+    outline: none;
+    border-radius: 60px;
+    border: 1px solid white;
+    display: block;
+    margin:auto;
+    background-color:#1AA085;
+    margin-top: 12px;
+}   
+.full img{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.full:hover{
+    background-color: #05A986;
+    color: white;
+}
+.full:hover h1{
+    color: white;
+}
+.full:hover span{
+    text-decoration-color: white;
+}
+
+.images{
+    display: block;
+    height: 54px;
+    width: 240px;
+    margin: auto;
+    margin-top: 15px;
+    background: url(pic1.jpg) no-repeat;
+}
+.full:hover .images{
+    display: block;
+    height: 54px;
+    width: 240px;
+    margin: auto;
+    margin-top: 15px;
+    background: url(pic2.jpg) no-repeat;
+}
