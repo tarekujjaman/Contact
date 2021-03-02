@@ -1,0 +1,90 @@
+body{
+    background-color: #130635;
+    overflow: hidden;
+}
+.lal{
+    position:relative;
+    height: 600px;
+    width: 40%;
+    background-color:red;
+    margin-left: 950px;
+    margin-top: 60px;
+}
+.name{
+    background-color: rgb(255, 255, 255);
+    height: 55px;
+    width: 500px;
+    position: relative;
+    margin-left: 900px;
+    margin-top: -520px;
+}
+.email{
+    background-color: rgb(255, 255, 255);
+    height: 55px;
+    width: 500px;
+    position: relative;
+    margin-left: 900px;
+    margin-top: 20px;
+}
+textarea{
+    resize: none;
+    height: 150px;
+    width: 500px;
+    margin-left: 900px;
+    margin-top: 20px;
+    position: relative;
+    padding: 8px 0px 5px 10px;
+    border: 1px solid white;
+    outline: none;
+    overflow:hidden;
+}
+.name input[type=text]{
+    outline: none;
+    padding: 10px 335px 29px 10px;
+    border: 1px solid white;
+    outline: none;
+    overflow:hidden;
+}
+
+.email input[type=email]{
+    outline: none;
+    padding: 10px 335px 29px 10px;
+    border: 1px solid white;
+    outline: none;
+    overflow:hidden;
+}
+.submit button{
+    margin-left: 1285px;
+    margin-top: 19px;
+    position: relative;
+    padding: 12px 30px;
+    background-color: #130635;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    letter-spacing: 3px;
+    overflow:hidden;
+}
+.likha {
+    width: 620px;
+    height: 300px;
+    position: relative;
+    margin-top: -350px;
+    margin-left: 110px;
+    text-align:center;
+}
+.likha h2{
+    display: inline;
+    width: fit-content;
+    font-size: 44px;
+    COLOR: WHITE;
+    border-bottom: 3px solid white;
+
+}
+.likha hr{
+    width: 300px;
+}
+.likha p{
+    color: white;
+    margin-top: 80px;
+}
