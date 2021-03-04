@@ -1,0 +1,163 @@
+body{
+    background-color:rgb(83, 70, 70)
+}
+
+
+.plate{
+    background-color: rgb(226, 220, 220);
+    width: 820px;
+    height: 500px;
+    /* margin:auto; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin:auto;
+    overflow: hidden;
+    text-align: center;
+}
+.one{
+    position: absolute;
+    top:0px;
+    left: 50px;
+    bottom: 0px;
+    margin:auto;
+    background-color: white;
+    height: 430px;
+    width: 330px;
+    display: inline-block;
+    /* margin-left: 15px;
+    margin-top: 25px; */
+    box-shadow: 2px 2px 24px 4px black;
+}
+.one:hover{
+    transform: scale(1.08);
+    transition: 1s;
+}
+.one img{
+    width:330px;
+    height: 250px;
+}
+
+.tarikh{
+    height: 60px;
+    width: 60px;
+    background-color: #C85446;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.tarikh p{
+    margin-top: 10px; 
+    font-weight: bold; 
+    color: white;
+    font-family:'Times New Roman', Times, serif
+}
+
+#secondp{
+    margin-top: -15px;
+}
+
+
+
+.photos{
+    height: 36px;
+    width: 86px;
+    background-color: #C85446;
+    position: absolute;
+    top: 214px
+
+}
+.photos p{
+    margin-top: 10px; 
+    font-weight: bolder; 
+    color: white;
+    font-family:'Times New Roman', Times, serif
+}
+
+#thirdp{
+    display: inline-block;
+    font-family: monospace;
+    font-size: 28px;
+    font-weight: bold;
+    word-spacing: -6px;
+    margin-top: 20px;
+}
+
+#fourthp{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -22px;
+    position: absolute;
+    margin-left: 33px;
+    color: #C65346
+}
+
+.one i{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    opacity: .5;
+    font-weight: bold;
+}
+#secondi{
+    margin-left: 120px;
+    font-weight: bold;
+}
+
+.two{
+    position: absolute;
+    top:8px;
+    right: 50px;
+    bottom: 0px;
+    margin:auto;
+    background-color: white;
+    height: 430px;
+    width: 330px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 25px;
+    box-shadow: 2px 2px 24px 4px black;
+}
+.two:hover{
+    transform: scale(1.08);
+    transition: 1s;
+}
+
+.two img{
+    width:330px;
+    height: 200px;
+}
+
+.photos2{
+    height: 36px;
+    width: 86px;
+    background-color: #C85446;
+    position: absolute;
+    top: 164px;
+}
+.photos2 p{
+    margin-top: 10px; 
+    font-weight: bolder; 
+    color: white;
+    font-family:'Times New Roman', Times, serif
+}
+
+#twoi{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    opacity: .5;
+    font-weight: bold;
+
+}
+#twoii{
+    margin-left: 34px;
+    font-weight: bold;
+    margin-top: 12px;
+    opacity: 0.5;
+}
