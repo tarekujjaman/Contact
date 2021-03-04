@@ -157,9 +157,10 @@ body{
 }
 #twoii{
     position: absolute;
-    margin-left: -35px;
+    bottom: 10px;
+    left: 45px;
+    right: 0px;
     font-weight: bold;
-    margin-top: 25px;
     opacity: 0.5;
 
 
