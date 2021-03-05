@@ -1,6 +1,6 @@
 h1{ overflow: hidden;
     margin: auto;
-    color:rgb(178, 189, 135);
+    color:rgba(231, 46, 179, 0.699);
     height:fit-content;
     width:fit-content;
 }
@@ -11,12 +11,13 @@ a{
     text-decoration: none;
 }
 .project1{
-    height: 300px;
+    height: 295px;
     width: 490px;
     background-color: rgb(255, 255, 255);
     margin-top: 25px;
     box-shadow: 0px 0px 7px 1px black;
-    margin-right: 7px;
+    margin-right: 6px;
+    border-radius: 5px;
     
 }
 
@@ -39,12 +40,13 @@ a{
 /* PROJECT:2 */
 
 .project2{
-    height: 300px;
+    height: 295px;
     width: 490px;
     background-color: rgb(255, 255, 255);
     margin-top: 25px;
     box-shadow: 0px 0px 7px 1px black;
     margin-right: 7px;
+    border-radius: 5px;
 
     
 }
@@ -68,12 +70,13 @@ a{
 /* PROJECT:3 */
 
 .project3{
-    height: 300px;
+    height: 295px;
     width: 490px;
     background-color: rgb(255, 255, 255);
     margin-top: 25px;
+    border-radius: 5px;
     box-shadow: 0px 0px 7px 1px black;
-    margin-right: 8px;
+    margin-right: -9px;
 
     
 }
@@ -100,12 +103,13 @@ a{
     text-decoration: none;
 }
 .project4{
-    height: 300px;
+    height: 295px;
     width: 490px;
     background-color: rgb(255, 255, 255);
     margin-top: 25px;
     box-shadow: 0px 0px 7px 1px black;
     margin-right: 7px;
+    border-radius: 5px;
     
 }
 
@@ -124,5 +128,3 @@ a{
     transition: 0.5s;
 
 }
-
-
