@@ -1,36 +1,55 @@
-body{
+body {
+    margin:0;
+    padding:0;
+
+}
+.purata{
     background-color: #130635;
+    height: 720px;
     overflow: hidden;
+    position: relative;
 }
-.hudai{
-    position:relative;
-}
+
 .lal{
-    position: absolute;
-    height: 600px;
-    width: 40%;
     background-color: red;
-    right: -10px;
-    top: 700px;
-    bottom: 0px;
-    margin: auto;
+    height: 600px;
+    width: 600px;
+    position:absolute;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    margin:auto;
 }
 .name{
     background-color: rgb(255, 255, 255);
     height: 55px;
     width: 500px;
     position: absolute;
-    top: 120px;
+    top: 80px;
     right: 190px;
 
+}
+.name input[type=text]{
+    outline: none;
+    padding: 10px 335px 29px 10px;
+    border: 1px solid white;
+    outline: none;
+    overflow:hidden;
 }
 .email{
     background-color: rgb(255, 255, 255);
     height: 55px;
     width: 500px;
     position: absolute;
-    top: 200px;
+    top: 160px;
     right: 190px;
+}
+.email input[type=email]{
+    outline: none;
+    padding: 10px 335px 29px 10px;
+    border: 1px solid white;
+    outline: none;
+    overflow:hidden;
 }
 textarea{
 
@@ -41,7 +60,7 @@ textarea{
     margin-top: 20px;
     position: absolute;
     position: absolute;
-    top: 260px;
+    top: 220px;
     right: 180px;
     padding: 8px 0px 5px 10px;
     border: 1px solid white;
@@ -52,42 +71,6 @@ textarea::placeholder{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.name input[type=text]{
-    outline: none;
-    padding: 10px 335px 29px 10px;
-    border: 1px solid white;
-    outline: none;
-    overflow:hidden;
-}
-
-.email input[type=email]{
-    outline: none;
-    padding: 10px 335px 29px 10px;
-    border: 1px solid white;
-    outline: none;
-    overflow:hidden;
-}
-/* .submit{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-} */
-/* .submit button[type=submit]{
-    position: absolute;
-    top: 1000px;
-    right: 175px;
-    bottom: 0;
-    margin: auto;
-    padding: 25px 30px;
-    background-color: #130635;
-    color: rgb(255, 255, 255);
-    outline: none;
-    border: none;
-    letter-spacing: 3px;
-    overflow: hidden;
-} */
 .submit button[type=submit]{
 
     height: 50px;
@@ -98,32 +81,48 @@ textarea::placeholder{
     border: none;
     letter-spacing: 3px;
     position: absolute;
-    top: 1000px;
-    right: 178px;
-    bottom:0px;
+    left: 113px;
+    bottom: 120px;
+    right: 0px;
     margin: auto;
 }
+
 .likha {
     width: 620px;
     height: 300px;
-    position: absolute;
+    position: relative;
     top: 177px;
     left: 89px;
     bottom: 0px;
     text-align: center;
 }
+
 .likha h2{
+    position: absolute;
     display: inline;
     width: fit-content;
     font-size: 44px;
     COLOR: WHITE;
     border-bottom: 3px solid white;
+    top: -100px;
+    left: -720px;
 
 }
+
 .likha hr{
     width: 300px;
+    position: absolute;
 }
-.likha p{
+.likha2 {
+    width: 620px;
+    height: 300px;
+    position: relative;
+    right: 790px;
+    bottom: 180px;
+    text-align: center;
+}
+.likha2 p{
     color: white;
-    margin-top: 80px;
+    top: 90px;
+    position: absolute;
 }
