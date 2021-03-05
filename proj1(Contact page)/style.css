@@ -2,13 +2,16 @@ body{
     background-color: #130635;
     overflow: hidden;
 }
+.hudai{
+    position:relative;
+}
 .lal{
-    position:absolute;
+    position: absolute;
     height: 600px;
     width: 40%;
-    background-color:red;
-    right: 0px;
-    top: 0px;
+    background-color: red;
+    right: -10px;
+    top: 700px;
     bottom: 0px;
     margin: auto;
 }
@@ -33,13 +36,13 @@ textarea{
 
     resize: none;
     height: 150px;
-    width: 500px;
+    width: 499px;
     margin-left: 900px;
     margin-top: 20px;
     position: absolute;
     position: absolute;
     top: 260px;
-    right: 178px;
+    right: 180px;
     padding: 8px 0px 5px 10px;
     border: 1px solid white;
     outline: none;
@@ -64,19 +67,41 @@ textarea::placeholder{
     outline: none;
     overflow:hidden;
 }
-.submit button{
-    margin-left: 1285px;
-    margin-top: 19px;
+/* .submit{
     position: absolute;
-    right: 176px;
-    bottom: 210px;
-    padding: 12px 30px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+} */
+/* .submit button[type=submit]{
+    position: absolute;
+    top: 1000px;
+    right: 175px;
+    bottom: 0;
+    margin: auto;
+    padding: 25px 30px;
     background-color: #130635;
     color: rgb(255, 255, 255);
     outline: none;
     border: none;
     letter-spacing: 3px;
-    overflow:hidden;
+    overflow: hidden;
+} */
+.submit button[type=submit]{
+
+    height: 50px;
+    width: 130px;
+    background-color: #130635;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 1000px;
+    right: 178px;
+    bottom:0px;
+    margin: auto;
 }
 .likha {
     width: 620px;
