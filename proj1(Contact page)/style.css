@@ -3,37 +3,43 @@ body{
     overflow: hidden;
 }
 .lal{
-    position:relative;
+    position:absolute;
     height: 600px;
     width: 40%;
     background-color:red;
-    margin-left: 950px;
-    margin-top: 60px;
     right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
 }
 .name{
     background-color: rgb(255, 255, 255);
     height: 55px;
     width: 500px;
-    position: relative;
-    margin-left: 900px;
-    margin-top: -520px;
+    position: absolute;
+    top: 120px;
+    right: 190px;
+
 }
 .email{
     background-color: rgb(255, 255, 255);
     height: 55px;
     width: 500px;
-    position: relative;
-    margin-left: 900px;
-    margin-top: 20px;
+    position: absolute;
+    top: 200px;
+    right: 190px;
 }
 textarea{
+
     resize: none;
     height: 150px;
     width: 500px;
     margin-left: 900px;
     margin-top: 20px;
-    position: relative;
+    position: absolute;
+    position: absolute;
+    top: 260px;
+    right: 178px;
     padding: 8px 0px 5px 10px;
     border: 1px solid white;
     outline: none;
@@ -61,7 +67,9 @@ textarea::placeholder{
 .submit button{
     margin-left: 1285px;
     margin-top: 19px;
-    position: relative;
+    position: absolute;
+    right: 176px;
+    bottom: 210px;
     padding: 12px 30px;
     background-color: #130635;
     color: rgb(255, 255, 255);
@@ -73,10 +81,11 @@ textarea::placeholder{
 .likha {
     width: 620px;
     height: 300px;
-    position: relative;
-    margin-top: -350px;
-    margin-left: 110px;
-    text-align:center;
+    position: absolute;
+    top: 177px;
+    left: 89px;
+    bottom: 0px;
+    text-align: center;
 }
 .likha h2{
     display: inline;
