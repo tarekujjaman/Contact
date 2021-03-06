@@ -4,6 +4,7 @@
 }
 body{
     background-image: linear-gradient(to bottom,#A6DACE 50%,white 50%);
+    background-repeat: no-repeat;
     
 }
 .main{
