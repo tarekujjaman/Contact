@@ -128,3 +128,33 @@ a{
     transition: 0.5s;
 
 }
+
+/* PROJECT:5 */
+
+.project5{
+    height: 295px;
+    width: 490px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+    box-shadow: 0px 0px 7px 1px black;
+    margin-right: 7px;
+    border-radius: 5px;
+
+    
+}
+
+.project5 img{
+    height: 260px;
+    width:490px;
+}
+.project5 h3{
+    color:black;
+    margin:auto;
+    text-align: center;
+    margin-top: 2px;
+}
+.project5:hover{
+    transform:scale(1.01);
+    transition: 0.5s;
+
+}
