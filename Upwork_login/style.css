@@ -1,0 +1,399 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: tahoma; 
+}
+
+/* Header Start */
+
+.header{
+    background-color: #1D4354;
+    height: 70px;
+}
+.header_mid{
+    background-color: #1D4354;
+    height: 70px;
+    width: 80%;
+    margin: auto;
+}
+.header_mid img{
+    height: 70px;
+    margin-left: 85px;
+}
+/* Header end */
+
+
+/* Mid Start */
+.mid{
+    background-color: #F1F2F4;
+    height: 680px;
+    overflow: hidden;
+    
+}
+
+.midbox{
+    width: 510px;
+    height: 585px;
+    background-color: rgb(255, 255, 255);
+    margin:auto;
+    margin-top: 60px;
+    border: 2px solid #E0E0E0;
+    border-radius: 4px
+}
+.midbox_top{
+    height: 85px;
+    background-color:rgb(255, 255, 255);
+    position: relative;
+}
+.likha{
+
+    height: fit-content;
+    background-color:rgb(255, 255, 255);text-align: center;
+    position: absolute;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    margin:auto;
+
+}
+.likha p{
+    word-spacing: 2px;
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.midboxinput{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    position: relative;
+
+}
+
+.inputbox{
+    height: 35px;
+    width: 345px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    margin:auto;
+    border: 2px solid #E0E0E0;
+    border-radius: 4px;
+}
+.icon{
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    height: 100%;
+    float: left;
+
+}
+
+.icon i{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #656565;
+}
+.field{
+    background-color:rgb(255, 255, 255);
+    width: 290px;
+    height: 100%;
+    float: left;
+
+}
+.field input[type=text]{
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 100%;
+    margin-left: 5px
+}
+.field input[type=text]::placeholder{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.inputbox:hover{
+    border: 2px solid #008329;
+    border-radius: 4px;
+    transition: 0.5s;
+
+}
+
+.midboxcontinue{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    padding-bottom:10px;
+    position: relative;
+}
+
+.continuebutton{
+    height: 40px;
+    width: 345px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    margin:auto;
+    border-radius: 10%;
+}
+.continuebutton button{
+    height: 37px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #479e24;
+    color: white;
+    font-weight: bolder;
+    border-radius: 6px;
+}
+
+.continuebutton button:hover{
+    background-color: #008329;
+    transition: 0.5s;
+}
+
+.ba1{
+    background-color:rgb(255, 255, 255);
+    height: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.ba1_final{
+    width: 345px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin:auto;
+    position: relative;
+}
+
+.ba1_final p{
+    color: #606060
+}
+
+.ba1_final p::before {
+    content: "";
+    position: absolute;
+    width: 155px;
+    height: 1px;
+    background: #E0E0E0;
+    top: 50%;
+    left: 0;
+}
+
+.ba1_final p::after {
+    content: "";
+    position: absolute;
+    width: 155px;
+    height: 1px;
+    background: #E0E0E0;
+    top: 50%;
+    right: 0;
+}
+
+.midboxgoogle{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    position: relative;
+    padding-top:10px;
+}
+
+.googlebutton{
+    height: 40px;
+    width: 345px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    margin:auto;
+    border-radius: 10%;
+}
+.googlebutton button{
+    height: 37px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #4285F4;
+    color: white;
+    font-weight: bolder;
+    border-radius: 6px;
+}
+
+.googlebutton img{
+    height: 32px;
+    width: 33px;
+    position: absolute;
+    top: 3px;
+    left: 1px;
+    border-radius: 5px;
+}
+
+
+.midboxapple{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    padding-bottom: 60px;
+    position: relative
+}
+
+.applebutton{
+    height: 40px;
+    width: 345px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: -70px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.applebutton button{
+    height: 37px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.applebutton i{
+    position: absolute;
+    top: 10px;
+    left: 90px;
+}
+
+.hr{
+    background-color: #E0E0E0;
+    width: 100%;
+    height: 1px;
+}
+
+
+.ba2{
+    background-color:rgb(255, 255, 255);
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.ba2_final{
+    width: 345px;
+    /* height: 100%; */
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+    
+}
+
+.ba2_final p{
+    color: #8F8E8E;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.ba2_final p::before {
+    content: "";
+    position: absolute;
+    width: 112px;
+    height: 1px;
+    background: #8F8E8E;
+    top: 50%;
+    left: 0;
+}
+
+.ba2_final p::after {
+    content: "";
+    position: absolute;
+    width: 112px;
+    height: 1px;
+    background: #8F8E8E;
+    top: 50%;
+    right: 0;
+}
+
+
+.midboxsignup{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.signupbutton{
+    height: 45px;
+    width: 220px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    margin:auto;
+    
+    border-radius: 10%;
+}
+.signupbutton button{
+    height: 37px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    color: #479e24;
+    font-weight: bolder;
+    border: 1px solid #D1D1D1;
+    border-radius: 6px;
+}
+
+.signupbutton button:hover{
+    background-color: #F9F9F9;
+    border: 1px solid #D1D1D1;
+    transition: 0.5s;
+}
+
+
+.footer{
+    background-color: #1D4354;
+    height: 120px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.text{
+    margin-top: 20px;
+    color:rgb(255, 255, 255)
+}
+
+.links{
+    height: 80px;
+    margin-top: 10px;
+}
+.links a{
+    width: fit-content;
+    display: block;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    margin: auto;
+}
+.links a:hover{
+    text-decoration: underline;
+}
