@@ -1,0 +1,1286 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Section Start */
+.header_section{
+    /* background-color: rgb(247, 238, 238); */
+    width: 1349px;
+    height: 108px;
+    position: relative;
+}
+.header_asset_container{
+    width: 1240px;
+    height: 72px;
+    /* background-color: rgb(221, 14, 14); */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+}
+.site_branding{
+    width: 250px;
+    height: 55.55px;
+    /* background-color: rgb(138, 121, 121); */
+    margin-top: 8.225px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.site_branding img{
+    width: 250px;
+    height: 55.55px;
+    counter-reset:inherit;
+}
+.menubar{
+    width: 747px;
+    height: 55.55px;
+    /* background-color: rgb(138, 121, 121); */
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    margin-top: 8.225px;
+    
+}
+.menubar ul{
+    list-style-type: none;
+}
+.menubar ul li{
+    padding: 10px 0px;
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Trebuchet MS;
+    font-style:inherit;
+    font-weight: inherit;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#service{
+    color: #00A0DB;
+}
+.menubar ul li a:hover{
+    color: #00A0DB;
+    transition: 0.4s;
+}
+.sub_menu1{
+
+    display: none;
+}
+.sub_menu1 ul hr{
+    border: 0px;
+    padding:0px;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(242, 238, 245);
+}
+.sub_menu1 ul li{
+    margin-left: 20px;
+    padding: 15px 0px 18px 0px;
+}
+
+
+.menubar ul li:hover .sub_menu1 {
+    display: block;
+    position:absolute;
+    margin-top: 2px;
+    margin-left: -15px;
+    background-color: white;
+    border: 1px solid rgb(248, 238, 238);
+    z-index: 1;
+}
+.menubar ul li:hover .sub_menu1 ul li{
+    display: block;
+}
+
+.sub_menu1 ul li:hover{
+    color: #00A0DB;
+    transition: 0.5s;
+}
+
+/* Header section end */
+
+/* Our service start */
+
+.our_service{
+    width: 1349px;
+    height: 530px;
+    /* background-color: chartreuse; */
+    background-image: url("https://brainstation-23.com/wp-content/uploads/2021/01/Cover_banner_final_V2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: all 3s;
+}
+.our_service:hover{
+    transform: scale(1.03);
+}
+.our_service_text{
+    width: 730px;
+    height: 83px;
+    background-color: red;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    margin:auto;
+}
+.our_service_text p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: arial;
+    color: white;
+}
+
+
+
+/* Our service end */
+
+
+
+/* Card Section Start */
+.card_section{
+    width: 1349px;
+    /* height: 1500px; */
+    /* background-color: lightblue; */
+    overflow: hidden;
+}
+
+
+/* Slider start  */
+
+.slider_1{
+    width: 1100px;
+    margin:auto;
+
+}
+.owl-dots{
+    display: none;
+}
+
+/* Slider end */
+.technolical_text{
+    width: 100%;
+    height: 200px;
+    /* background-color: rgb(224, 136, 136); */
+    overflow: hidden;
+}
+.technolical_text p{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 50px;
+    font-family: arial;
+    color: black;
+}
+.card1stline{
+    width: 1200px;
+    height: 335.5px;
+    /* background-color: lime; */
+    margin: auto;
+}
+
+/* card1 start */
+
+.card1{
+    width: 285px;
+    height: 320px;
+    /* background-color: rgb(235, 147, 147); */
+    display: inline-block;
+    border: 1px solid rgb(247, 247, 228);
+    box-shadow: 0px 0px 8px -7px black;
+    overflow: hidden;
+}
+.web_app_icon{
+    width: 100%;
+    height: 100px;
+    /* background-color: burlywood; */
+}
+.web_app_icon img{
+    height: 49.5px;
+    width: 49.5px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.card1_text_container{
+    width:80%;
+    height: 150px;
+    /* background-color: darkblue; */
+    margin: auto;
+    overflow: hidden;
+}
+.card1_text_container p{
+    margin-top: 20px;
+}
+.card1_text_container h3{
+    margin-top: 30px;
+}
+.card1 h4{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: arial;
+    font-weight: bold;
+    
+    
+    
+}
+.card1 h4:hover{
+    font-size: 17px;
+    transition: .3s;
+}
+
+/* card1 end */
+
+
+/* Card 2 Start */
+
+.card2{
+    width: 285px;
+    height: 320px;
+    margin-left: 10px;
+    /* background-color: rgb(235, 147, 147); */
+    display: inline-block;
+    border: 1px solid rgb(247, 247, 228);
+    box-shadow: 0px 0px 8px -7px black;
+    overflow: hidden;
+}
+.web_app_icon{
+    width: 100%;
+    height: 100px;
+    /* background-color: burlywood; */
+}
+.web_app_icon img{
+    height: 49.5px;
+    width: 49.5px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.card2_text_container{
+    width:80%;
+    height: 150px;
+    /* background-color: darkblue; */
+    margin: auto;
+    overflow: hidden;
+}
+.card2_text_container p{
+    margin-top: 20px;
+}
+.card2_text_container h3{
+    margin-top: 30px;
+}
+.card2 h4{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: arial;
+    font-weight: bold;
+    
+    
+    
+}
+.card2 h4:hover{
+    font-size: 17px;
+    transition: .3s;
+}
+
+
+
+
+/* Card 2 end */
+
+
+
+/* Card 3 Start  */
+
+.card3{
+    width: 285px;
+    height: 320px;
+    margin-left: 10px;
+    /* background-color: rgb(235, 147, 147); */
+    display: inline-block;
+    border: 1px solid rgb(247, 247, 228);
+    box-shadow: 0px 0px 8px -7px black;
+    overflow: hidden;
+}
+.web_app_icon{
+    width: 100%;
+    height: 100px;
+    /* background-color: burlywood; */
+}
+.web_app_icon img{
+    height: 49.5px;
+    width: 49.5px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.card3_text_container{
+    width:80%;
+    height: 150px;
+    /* background-color: darkblue; */
+    margin: auto;
+    overflow: hidden;
+}
+.card3_text_container p{
+    margin-top: 20px;
+}
+.card3_text_container h3{
+    margin-top: 30px;
+}
+.card3 h4{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: arial;
+    font-weight: bold;
+    
+    
+    
+}
+.card3 h4:hover{
+    font-size: 17px;
+    transition: .3s;
+}
+
+
+/* Card 3 End  */
+
+/* cardd 4 start  */
+
+.card4{
+    width: 285px;
+    height: 320px;
+    margin-left: 10px;
+    /* background-color: rgb(235, 147, 147); */
+    display: inline-block;
+    border: 1px solid rgb(247, 247, 228);
+    box-shadow: 0px 0px 8px -7px black;
+    overflow: hidden;
+}
+.web_app_icon{
+    width: 100%;
+    height: 100px;
+    /* background-color: burlywood; */
+}
+.web_app_icon img{
+    height: 49.5px;
+    width: 49.5px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.card4_text_container{
+    width:80%;
+    height: 150px;
+    /* background-color: darkblue; */
+    margin: auto;
+    overflow: hidden;
+}
+.card4_text_container p{
+    margin-top: 20px;
+}
+.card4_text_container h3{
+    margin-top: 30px;
+}
+.card4 h4{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: arial;
+    font-weight: bold;
+    
+    
+    
+}
+.card4 h4:hover{
+    font-size: 17px;
+    transition: .3s;
+}
+
+/* cardd 4 End  */
+
+
+
+.card2ndline{
+    width: 1200px;
+    height: 335.5px;
+    /* background-color: rgb(69, 133, 69); */
+    margin: auto;
+    margin-top: 100px;
+}
+
+/* cardd 5 start  */
+
+.card5{
+    width: 285px;
+    height: 320px;
+    /* background-color: rgb(235, 147, 147); */
+    display: inline-block;
+    border: 1px solid rgb(247, 247, 228);
+    box-shadow: 0px 0px 8px -7px black;
+    overflow: hidden;
+}
+.web_app_icon{
+    width: 100%;
+    height: 100px;
+    /* background-color: burlywood; */
+}
+.web_app_icon img{
+    height: 49.5px;
+    width: 49.5px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.card5_text_container{
+    width:80%;
+    height: 150px;
+    /* background-color: darkblue; */
+    margin: auto;
+    overflow: hidden;
+}
+.card5_text_container p{
+    margin-top: 20px;
+}
+.card5_text_container h3{
+    margin-top: 30px;
+}
+.card5 h4{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: arial;
+    font-weight: bold;
+    
+    
+    
+}
+.card5 h4:hover{
+    font-size: 17px;
+    transition: .3s;
+}
+
+/* cardd 5 End  */
+
+
+/* cardd 6 start  */
+
+.card6{
+    width: 285px;
+    height: 320px;
+    margin-left: 10px;
+    /* background-color: rgb(235, 147, 147); */
+    display: inline-block;
+    border: 1px solid rgb(247, 247, 228);
+    box-shadow: 0px 0px 8px -7px black;
+    overflow: hidden;
+}
+.web_app_icon{
+    width: 100%;
+    height: 100px;
+    /* background-color: burlywood; */
+}
+.web_app_icon img{
+    height: 49.5px;
+    width: 49.5px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.card6_text_container{
+    width:80%;
+    height: 150px;
+    /* background-color: darkblue; */
+    margin: auto;
+    overflow: hidden;
+}
+.card6_text_container p{
+    margin-top: 20px;
+}
+.card6_text_container h3{
+    margin-top: 30px;
+}
+.card6 h4{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: arial;
+    font-weight: bold;
+    
+    
+    
+}
+.card6 h4:hover{
+    font-size: 17px;
+    transition: .3s;
+}
+
+/* cardd 6 End  */
+
+
+/* cardd 7 start  */
+
+.card7{
+    width: 285px;
+    height: 320px;
+    margin-left: 10px;
+    /* background-color: rgb(235, 147, 147); */
+    display: inline-block;
+    border: 1px solid rgb(247, 247, 228);
+    box-shadow: 0px 0px 8px -7px black;
+    overflow: hidden;
+}
+.web_app_icon{
+    width: 100%;
+    height: 100px;
+    /* background-color: burlywood; */
+}
+.web_app_icon img{
+    height: 49.5px;
+    width: 49.5px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.card7_text_container{
+    width:80%;
+    height: 150px;
+    /* background-color: darkblue; */
+    margin: auto;
+    overflow: hidden;
+}
+.card7_text_container p{
+    margin-top: 20px;
+}
+.card7_text_container h3{
+    margin-top: 30px;
+}
+.card7 h4{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: arial;
+    font-weight: bold;
+    
+    
+    
+}
+.card7 h4:hover{
+    font-size: 17px;
+    transition: .3s;
+}
+
+/* cardd 7 End  */
+
+
+/* cardd 8 start  */
+
+.card8{
+    width: 285px;
+    height: 320px;
+    margin-left: 10px;
+    /* background-color: rgb(235, 147, 147); */
+    display: inline-block;
+    border: 1px solid rgb(247, 247, 228);
+    box-shadow: 0px 0px 8px -7px black;
+    overflow: hidden;
+}
+.web_app_icon{
+    width: 100%;
+    height: 100px;
+    /* background-color: burlywood; */
+}
+.web_app_icon img{
+    height: 49.5px;
+    width: 49.5px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.card8_text_container{
+    width:80%;
+    height: 150px;
+    /* background-color: darkblue; */
+    margin: auto;
+    overflow: hidden;
+}
+.card8_text_container p{
+    margin-top: 20px;
+}
+.card8_text_container h3{
+    margin-top: 30px;
+}
+.card8 h4{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: arial;
+    font-weight: bold;
+    
+    
+    
+}
+.card8 h4:hover{
+    font-size: 17px;
+    transition: .3s;
+}
+
+/* cardd 8 End  */
+
+
+.card3rdline{
+    width: 1200px;
+    height: 435.5px;
+    background-color: rgb(69, 133, 69);
+    margin: auto;
+    margin-top: 100px;
+}
+
+/* cardd 9 start  */
+
+.card9{
+    width: 285px;
+    height: 320px;
+    /* background-color: rgb(235, 147, 147); */
+    display: inline-block;
+    border: 1px solid rgb(247, 247, 228);
+    box-shadow: 0px 0px 8px -7px black;
+    overflow: hidden;
+}
+.web_app_icon{
+    width: 100%;
+    height: 100px;
+    /* background-color: burlywood; */
+}
+.web_app_icon img{
+    height: 49.5px;
+    width: 49.5px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.card9_text_container{
+    width:80%;
+    height: 150px;
+    /* background-color: darkblue; */
+    margin: auto;
+    overflow: hidden;
+}
+.card9_text_container p{
+    margin-top: 20px;
+}
+.card9_text_container h3{
+    margin-top: 30px;
+}
+.card9 h4{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: arial;
+    font-weight: bold;
+    
+    
+    
+}
+.card9 h4:hover{
+    font-size: 17px;
+    transition: .3s;
+}
+
+/* cardd 9 End  */
+
+
+/* cardd 10 start  */
+
+.card10{
+    width: 285px;
+    height: 320px;
+    margin-left: 10px;
+    /* background-color: rgb(235, 147, 147); */
+    display: inline-block;
+    border: 1px solid rgb(247, 247, 228);
+    box-shadow: 0px 0px 8px -7px black;
+    overflow: hidden;
+}
+.web_app_icon{
+    width: 100%;
+    height: 100px;
+    /* background-color: burlywood; */
+}
+.web_app_icon img{
+    height: 49.5px;
+    width: 49.5px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.card10_text_container{
+    width:80%;
+    height: 150px;
+    /* background-color: darkblue; */
+    margin: auto;
+    overflow: hidden;
+}
+.card10_text_container p{
+    margin-top: 20px;
+}
+.card10_text_container h3{
+    margin-top: 30px;
+}
+.card10 h4{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: arial;
+    font-weight: bold;
+    
+    
+    
+}
+.card10 h4:hover{
+    font-size: 17px;
+    transition: .3s;
+}
+
+/* cardd 10 End  */
+
+
+/* cardd 11 start  */
+
+.card11{
+    width: 285px;
+    height: 320px;
+    margin-left: 10px;
+    /* background-color: rgb(235, 147, 147); */
+    display: inline-block;
+    border: 1px solid rgb(247, 247, 228);
+    box-shadow: 0px 0px 8px -7px black;
+    overflow: hidden;
+}
+.web_app_icon{
+    width: 100%;
+    height: 100px;
+    /* background-color: burlywood; */
+}
+.web_app_icon img{
+    height: 49.5px;
+    width: 49.5px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.card11_text_container{
+    width:80%;
+    height: 150px;
+    /* background-color: darkblue; */
+    margin: auto;
+    overflow: hidden;
+}
+.card11_text_container p{
+    margin-top: 20px;
+}
+.card11_text_container h3{
+    margin-top: 30px;
+}
+.card11 h4{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: arial;
+    font-weight: bold;
+    
+    
+    
+}
+.card11 h4:hover{
+    font-size: 17px;
+    transition: .3s;
+}
+
+/* cardd 11 End  */
+
+
+/* cardd 12 start  */
+
+.card12{
+    width: 285px;
+    height: 320px;
+    margin-left: 10px;
+    /* background-color: rgb(235, 147, 147); */
+    display: inline-block;
+    border: 1px solid rgb(247, 247, 228);
+    box-shadow: 0px 0px 8px -7px black;
+    overflow: hidden;
+}
+.web_app_icon{
+    width: 100%;
+    height: 100px;
+    /* background-color: burlywood; */
+}
+.web_app_icon img{
+    height: 49.5px;
+    width: 49.5px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.card12_text_container{
+    width:80%;
+    height: 150px;
+    /* background-color: darkblue; */
+    margin: auto;
+    overflow: hidden;
+}
+.card12_text_container p{
+    margin-top: 20px;
+}
+.card12_text_container h3{
+    margin-top: 30px;
+}
+.card12 h4{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: arial;
+    font-weight: bold;
+    
+    
+    
+}
+.card12 h4:hover{
+    font-size: 17px;
+    transition: .3s;
+}
+
+/* cardd 12 End  */
+/* Card Section End */
+
+
+
+/* Global Family Section Start  */
+
+.our_global_family{
+    /* height: 870px; */
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+
+.our_global_family_text{
+    width: 100%;
+    height: 240px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.our_global_family_text h1{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 50px;
+}
+
+.gallery{
+    width: 1200px;
+    height: 635px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+
+    
+
+}
+
+.section_1{
+    height: 635px;
+    width: 600px;
+    background-color: rgb(206, 126, 126);
+    display: inline-block;
+    height: 635px;
+    width: 600px;
+    background-image: url("https://brainstation-23.com/wp-content/uploads/2020/09/2019-11-Hansch-Kramer-ganzerKoerper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1.4s;
+    opacity: .5;
+    overflow: hidden;
+    
+    
+    
+}
+.section_1:hover{
+  transform: scale(1.1);
+  opacity: 1;
+}
+.sec1_text{
+    height: 145px;
+    width: 380px;
+    margin: auto;
+    margin-top: 270px;
+    text-align: center;
+}
+.sec1_text h1,p{
+    color: white;
+    transition: all 1.4s;
+
+}
+.section_1:hover p,h1{
+    transform: scale(1.1);
+    /* transition: all .9s; */
+}
+
+
+.section_2{
+    height: 317.5px;
+    width: 600px;
+    background-color: rgb(209, 142, 153);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-image: url("https://brainstation-23.com/wp-content/uploads/2019/12/Gture_partner-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .7;
+    transition: all 1.4s;
+    overflow: hidden;
+
+
+}
+.section_2 h1{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+}
+
+.section_2:hover{
+    /* transform: scale(1.1); */
+    opacity: 1;
+  }
+.gallery .section_3{
+    height: 50%;
+    width: 600px;
+    background-color: rgb(100, 44, 53);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-image: url("https://brainstation-23.com/wp-content/uploads/2021/01/banner_1_v2-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .7;
+    transition: all 1.4s;
+    overflow: hidden;
+
+}
+.section_3 h1{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+}
+.section_3:hover{
+    /* transform: scale(1.1); */
+    opacity: 1;
+  }
+
+/* Global Family Section end */
+
+/* Join us Start  */
+
+.join_us{
+    width: 1250px;
+    height: 420px;
+    /* background-color: rgb(255, 255, 255); */
+    margin: auto;
+    overflow: hidden;
+}
+
+.one1{
+    width: 625px;
+    height: 420px;
+    /* background-color: violet; */
+    display: inline-block;
+    overflow: hidden;
+}
+.text1{
+    height: 50px;
+    width: 450px;
+    /* background-color: rgb(255, 255, 255); */
+    margin: auto;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.text1 h1{
+    font-size: 40px;
+}
+
+.one1 button{
+    padding: 12px;
+    margin-left: 80px;
+    
+    outline: none;
+    border: none;
+    background-color: #009CCE;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.one1 button:hover{
+    background-color: #03465c;
+    transition: .5s;
+}
+
+.text2{
+    height: 120px;
+    width: 550px;
+    /* background-color: rgb(110, 156, 73); */
+    text-align:initial;
+    margin-left: 80px;
+    margin-top: 70px;
+
+    font-size: 20px;
+}
+.text2 p{
+    color: black;
+    font-family: tahoma;
+    font-size: 18px;
+}
+.two2{
+    width: 625px;
+    height: 420px;
+    /* background-color: rgb(87, 68, 87); */
+    /* display: inline-block; */
+    float: right;
+}
+.two2 img{
+    height: 100%;
+    width: 100%;
+}
+/* Join us End */
+
+/* footer start  */
+
+.footer{
+    width: 1349px;
+    height: 550px;
+    background-color: #001C38;
+}
+
+
+
+/* Text box 1 start */
+
+
+.textbox1{
+    width: 425px;
+    height: 595px;
+    /* background-color: tomato; */
+    overflow: hidden;
+    display: inline-block;
+}
+.textbox1logo{
+    width: 100%;
+    height: 70px;
+    /* background-color: thistle; */
+    text-align: center;
+    margin-top: 70px;
+}
+.textbox1logo img{
+    height: 59.4px;
+    width: 255.4px;
+    
+}
+
+
+.textbox1text1{
+    width: 70%;
+    height: 80px;
+    /* background-color: rgb(141, 60, 141); */
+    margin-left: 85px;
+    text-align: initial;
+    
+}
+.textbox1text1 p{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.textbox1text2 p{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.textbox1text2{
+    width: 70%;
+    height: 80px;
+    /* background-color: rgb(56, 143, 56); */
+    margin-left: 85px;
+    text-align: initial;
+    margin-top: 20px;
+    
+}
+
+.textbox1icons{
+    width: 70%;
+    height: 80px;
+    /* background-color: rgb(64, 104, 64); */
+    margin-left: 85px;
+    margin-top: 50px;
+    text-align: initial;
+    position: relative;
+    
+}
+
+.textbox1icons ul {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.textbox1icons ul li {
+    list-style: none;
+  }
+
+.textbox1icons ul li a {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 20%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+  }
+
+.textbox1icons ul li a .icon {
+    position: relative;
+    color: #262626;
+    transition: 1s;
+    z-index: 3;
+  }
+
+
+  .textbox1icons  ul li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+  }
+  
+  .textbox1icons ul li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 1s;
+    z-index: 2;
+  }
+  
+  .textbox1icons ul li a:hover:before {
+    top: 0;
+  }
+  
+  .textbox1icons ul li:nth-child(1) a:before{
+    background: #3b5999;
+  }
+  
+  .textbox1icons ul li:nth-child(2) a:before{
+    background: #55acee;
+  }
+  
+  .textbox1icons ul li:nth-child(3) a:before {
+    background: #0077b5;
+  }
+  
+  .textbox1icons ul li:nth-child(4) a:before {
+    background: #da1010;
+  }
+
+
+  /* Text box 1 end */
+
+/* Text boxt 2 start  */
+.textbox2{
+    width: 200px;
+    height: 100%;
+    /* background-color: lawngreen; */
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+}
+
+.textbox2 ul li {
+    list-style: none;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    
+  }
+
+  .textbox2 p{
+      margin-top: 80px;
+      font-family: sans-serif;
+    font-size: 18px;
+
+  }  
+/* Text boxt 2 end */
+
+/* Text boxt 3 start */
+
+
+.textbox3{
+    width: 200px;
+    height: 100%;
+    /* background-color: rgb(106, 133, 80); */
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+}
+.textbox3 .empty{
+    margin-top: 145px;
+}
+.textbox3 ul li {
+    list-style: none;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: white;
+    
+  }
+  /* Text boxt 3 end */
+
+  /* Text boxt 4 start */
+  .textbox4{
+    width: 400px;
+    height: 100%;
+    margin-left: 100px;
+    /* background-color: lawngreen; */
+    display: inline-block;
+    overflow: hidden;
+    text-align:initial
+}
+
+.textbox4 ul li {
+    list-style: none;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    
+  }
+
+  .textbox4 p{
+      margin-top: 80px;
+      font-family: sans-serif;
+    font-size: 20px;
+
+  }
+
+  /* Text boxt 4 end */
+
+/* footer end */
