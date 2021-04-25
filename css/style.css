@@ -873,6 +873,25 @@ padding-bottom: 2em;
 			.grid_box a:hover .zoom-icon {
 			top:15px;
 			}
+			.about-text p{
+				font-size:1em;
+				overflow: hidden;
+			}
+			.about-imag img {
+				width: 80%;
+			}
+		}
+		@media(max-width:1200px){
+			.grid_box a:hover .zoom-icon {
+			top:15px;
+			}
+			.about-text p{
+				font-size:1em;
+				overflow: hidden;
+			}
+			.about-imag img {
+				width: 80%;
+			}
 		}
 		@media(max-width:1024px){
 			.banner_center h1 {
@@ -923,8 +942,12 @@ padding-bottom: 2em;
 			.about-header h3 {
 			    font-size: 2.2em;
 			}
+			.about-imag img {
+				width: 80%;
+			}
 			.about-text p{
 				font-size:1em;
+				overflow: hidden;
 			}
 			.poll-desc h4 {
 				font-size: 16px;
@@ -954,6 +977,15 @@ padding-bottom: 2em;
 				font-size: 16px;	
             }
            	}
+@media(max-width:991px){
+.img-top {
+	margin: 3px 0 19px 0;
+	position: relative;
+	padding: 0px 4px !important;
+	float: left;
+	width: 25%;
+}
+}
  @media(max-width:991px){
 	.img-top {
 		margin: 3px 0 19px 0;
@@ -963,7 +995,7 @@ padding-bottom: 2em;
 		width: 25%;
 	}
 }
-       @media(max-width:800px){
+       @media(max-width:850px){
            	.header {
            		min-height: 360px;
 			}
@@ -1032,7 +1064,7 @@ padding-bottom: 2em;
 				width: 80%;
 			}
 			.about-text p {
-				height: 65px;
+				/* height: 65px; */
 				overflow: hidden;
 			}
 			.about-sectiongrids {
@@ -1077,7 +1109,7 @@ padding-bottom: 2em;
 	
 
 /*----- resposnive-menu -----*/
-	@media(max-width:768px){
+	@media(max-width:850px){
 		.header-top {
 		padding-top:2em;
 		}
@@ -1198,8 +1230,8 @@ padding-bottom: 2em;
 		.grid_box a:hover .zoom-icon {
 			top: -30px;
 		}
-		.about-text p {
-			height: 46px;
+		.about-text p:nth-child(3) {
+			display: none;
 			overflow: hidden;
 		}
 		.about-header h3 {
@@ -1491,7 +1523,6 @@ padding-bottom: 2em;
 			padding: 1em 0;
 		}
 		.about-text p {
-			height: 37px;
 			overflow: hidden;
 			font-size: 0.9em;
 		}
