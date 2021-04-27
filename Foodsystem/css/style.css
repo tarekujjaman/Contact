@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: lulo;
+    src: url("Lulo-Clean-W01-One-Bold.ttf");
+}
+@font-face {
+    font-family: Montserrat-regular;
+    src: url("Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: Montserrat-bold;
+    src: url("Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: Lulo-Clean-W01-One-Bold;
+    src: url("aee74cb3-c913-4b54-9722-6001c92325f2.woff2");
+}
+@font-face {
+    font-family: Avenir-LT-W01_35-Light1475496;
+    src: url("avera-lt.woff2");
+}
+
+a{
+    text-decoration: none!important;
+    outline: none;
+}
+
+.firstbox{
+    background-color: #f1f2f3!important;
+    background-image: url("https://www.foodsystem.pt/images/background.jpg");
+    background-blend-mode:overlay;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+ .left1 h1{
+    font-family: lulo;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-top: 167px!important;
+    margin-left: 60px;
+    color: #1D1E21 !important;
+}
+
+.left1 h4{
+    font-family: Montserrat-regular;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-left: 60px;
+    line-height: normal;
+    color: #1D1E21 !important;
+}
+
+.left1 span{
+    border: 2px solid #111;
+    display: block;
+    width: 248px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 16px 0px;
+    color: #1D1E21;
+    font-weight: 500;
+    height: 53px;
+    transition: .3s;
+    margin-top: 16px;
+    margin-left: 60px;
+    font-family: Montserrat-bold;
+    font-size: 14px;
+    line-height: 19.6px;
+}
+.left1 a span:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.downleft img{
+    padding: 30px;
+    opacity: .4;
+}   
+
+.ghuraghuri{
+    margin-top: 130px;
+    margin-left: -150px;
+    height: 100px;
+    display: inline-block;
+    /* background-color: brown; */
+}
+.ghuraghuri h1{
+    font-family: Lulo-Clean-W01-One-Bold;
+    font-weight: 700;
+    font-size: 31px;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+.fixedjinish h3{
+    font-family: Montserrat-bold;
+    font-weight: normal;
+    color: #1D1E21;
+    
+    width: 90%;
+    word-spacing: 5px; 
+    font-size: 19px;
+    line-height: 1.4em;
+    letter-spacing: inherit;
+}
+
+.fixedjinish p{
+    font-size: 16px;
+    line-height: normal;
+    word-spacing: normal;
+    font-weight: 400;
+    width: 380px;
+    text-align: justify;
+    font-family: Avenir-LT-W01_35-Light1475496
+}
+
+
+.card1{
+    padding: 20px;
+    text-align: center;
+}
+
+.card1 h3{
+    font-family: Lulo-Clean-W01-One-Bold;
+    font-size: 18px;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.card1 p{
+    font-size: 16px;
+    font-family: Avenir-LT-W01_35-Light1475496;
+    line-height: normal;
+    word-spacing: normal;
+    font-weight: 400;
+}
+
+
+.hudatext{
+    text-align: center;
+}
+.hudatext h1{
+    font-family: lulo;
+    font-weight: 700;
+    font-size: 20px;
+}
+.firstletter{
+    padding: 10px;
+    text-align: center;
+}
+.firstletter span{
+    display: inline-block;
+    font-family: lulo;
+    color: #f8d8d5;
+    text-align: left;
+    font-size: 115px;
+}
+
+.firstletter p{
+    display: inline-block;
+    width: 53%;
+    font-family: Montserrat-bold;
+    font-size: 19px;
+    word-spacing: normal;
+    position: absolute;
+    margin-top: 90px;
+    line-height: normal;
+    color: #1D1E21;
+    text-align: left;
+    margin-left: -20px !important;
+    
+}
+
+.hudabutton a span{
+    border: 2px solid #111;
+    display: block;
+    width: 248px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 16px 0px;
+    color: #1D1E21;
+    font-weight: 500;
+    height: 53px;
+    transition: .3s;
+    margin: auto;
+    font-family: Montserrat-bold;
+    font-size: 14px;
+    line-height: 19.6px;
+}
+.hudabutton a span:hover{
+    background-color: black;
+    color: white;
+}
+
+.lastbox1{
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+}
+.lastbox2{
+    
+    background-color:#ED9C83;
+}
+
+
+.lastboxtext1{
+    text-align: center;
+
+
+}
+.lastboxtext1 h6{
+    color: white;
+    font-family: Montserrat-bold;
+    margin-top: 102px;
+    margin-bottom: 25px;
+    font-size: 19px;
+    word-spacing: normal;
+    line-height: normal;
+    font-weight: 700;
+}
+
+.lastboxtext1 p{
+    color: white;
+}
+
+.bottomtext{
+    text-align: center;
+}
+
+@media (min-width: 0px) and (max-width: 576px) { 
+    .downleft img{
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+    
+    }
+
+    .fixedjinish p{
+        padding: 0px;
+        width: 80%;
+
+    }
+
+    .lastbox1{
+        height:300px;
+    }
+
+
+
+
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 0px) { 
+
+    .header-logo img{
+        height: 125px;
+        width: 300px;
+        padding: 25px;
+        display: inline-block;
+        margin: auto;
+    }
+    .left1 h1{
+        margin-top: 10px!important;
+        margin-left: 30px;
+        font-size: 28px;
+    }
+    .left1 h4{
+        margin-left: 30px;
+    }
+    .left1 span{
+        margin-left: 30px;
+    }
+    .left1 a span:hover{
+        background-color: black;
+        color: white;
+    
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 0px) and (max-width: 991.98px) { 
+    .downleft img{
+        width: 100%;
+
+    }
+    .fixedjinish{
+        margin-top: 2%;
+        margin-left: 15%;
+    }
+    .ghuraghuri{
+        margin-left: 15%;
+        margin-top: 2%;
+    }
+    .ghuraghuri h1{
+        font: 15px;
+    }
+
+
+ }
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+    .left1 h1 {
+        font-family: lulo;
+        font-weight: 700;
+        font-size: 31px;
+        line-height: 1.2;
+        /* color: brown; */
+        text-transform: uppercase;
+        margin-top: 167px!important;
+        margin-left: 60px;
+        color: #1D1E21!important;
+    }
+    .left1 h4{
+        font-family: Montserrat-regular;
+        font-weight: bold;
+        margin-bottom: 30px;
+        font-size: 24px;
+        margin-top: 16px;
+        margin-left: 60px;
+        line-height: normal;
+        color: #1D1E21 !important;
+    }
+    
+    .left1 span{
+        border: 2px solid #111;
+        display: block;
+        width: 248px;
+        text-align: center;
+        border-radius: 30px;
+        padding: 16px 0px;
+        color: #1D1E21;
+        font-weight: 500;
+        height: 53px;
+        transition: .3s;
+        margin-top: 16px;
+        margin-left: 60px;
+        font-family: Montserrat-bold;
+        font-size: 14px;
+        line-height: 19.6px;
+    } 
+    /* .ghuraghuri h1{
+        font-family: Lulo-Clean-W01-One-Bold;
+        font-weight: 700;
+        font-size: 31px;
+        text-transform: uppercase;
+        letter-spacing: normal;
+        word-spacing: normal;
+    } */
+
+    .fixedjinish{
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    
+
+}
